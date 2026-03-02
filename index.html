@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="container__weather">
+        <div class="container__weather--search">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search city..." class="container__weather--input">
+        </div>
+
+        <div class="container__weather--output">
+            <h1 class="container__weather--city">Loading...</h1>
+            <h2 class="container__weather--date"></h2>
+            <button class="container__weather--button">--</button>
+            
+            <div class="icon-div">
+                <img src="" alt="" class="weather-icon-img" id="w-icon">
+            </div>
+
+            <p class="container__weather--temperature">--°C</p>
+            
+            <div class="container__weather--limits">
+                <span class="container__weather--minimum">Min: --°</span>
+                <span class="container__weather--maximum">Max: --°</span>
+            </div>
+        </div>
+
+        <div class="container__weather--details">
+            <div class="detail-item container__weather--feels">Feels: --°</div>
+            <div class="detail-item container__weather--humidity">Humidity: --%</div>
+            <div class="detail-item container__weather--wind">Wind: -- m/s</div>
+            <div class="detail-item container__weather--pressure">Pressure: -- hPa</div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>git a
