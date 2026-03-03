@@ -14,7 +14,8 @@
             /* Premium Dark Gradient Background */
             background: radial-gradient(circle at top right, #1e3c72, #2a5298, #000000);
             color: #fff;
-            overflow: hidden;
+            overflow-x: hidden;
+    overflow-y: auto;
         }
 
         .container__weather {
